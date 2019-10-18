@@ -28,6 +28,8 @@ namespace GradeBook
             }
 
             double average = result / grades.Count;
+            Console.WriteLine($"The lowest grade is {lowGrade}");
+            Console.WriteLine($"The highest grade is {highGrade}");
             Console.WriteLine($"The sum of all grades is {result}");
             Console.WriteLine($"The average grade {average:N3}");
         }
